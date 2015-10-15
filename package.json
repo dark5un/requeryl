@@ -1,0 +1,27 @@
+{
+  "name": "requeryl",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dark5un/requeryl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dark5un/requeryl/issues"
+  },
+  "homepage": "https://github.com/dark5un/requeryl#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "http-proxy": "^1.11.2",
+    "mongodb": "^2.0.45",
+    "native-dns": "^0.7.0",
+    "redis": "^2.2.1",
+    "rethinkdb": "^2.1.1"
+  }
+}
