@@ -1,7 +1,7 @@
 {
   "name": "requeryl",
   "version": "0.1.0",
-  "description": "",
+  "description": "transparent proxy and mocking server",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,10 +17,13 @@
   },
   "homepage": "https://github.com/dark5un/requeryl#readme",
   "dependencies": {
+    "bluebird": "^2.10.2",
     "express": "^4.13.3",
     "http-proxy": "^1.11.2",
+    "lodash": "^3.10.1",
     "mongodb": "^2.0.45",
     "native-dns": "^0.7.0",
+    "recursive-readdir": "^1.2.1",
     "redis": "^2.2.1",
     "rethinkdb": "^2.1.1"
   }
